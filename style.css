@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #bookForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #bookForm.hidden {
+    display: none;
+  }
+  
+  #library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .book-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  button.remove {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  
+  button.toggle-read {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  
